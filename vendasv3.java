@@ -24,7 +24,6 @@ public class JavaApplication3 {
             totalvendas += vendas[i];
             media = totalvendas / vendas.length;
             if (i > 0) {
-            } else {
                 if (vendas[i] > maior) {
                     maior = vendas[i];
                     ilhamaior = ilhas[i];
