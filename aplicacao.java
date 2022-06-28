@@ -292,7 +292,7 @@ public class aplicacao extends javax.swing.JFrame {
                             }
                         }
                     }
-                    if (mes < 0 || mes > 12) {
+                    if (mes < 1 || mes > 12) {
                         datavalida = false;
                         
                     output.append("o mes inserido é invalido\n");
